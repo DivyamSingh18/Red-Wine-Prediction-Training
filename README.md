@@ -22,6 +22,9 @@ The Kaggle link for the data-set used in this model is: <br>
 - The Model is deployed at https://redwinequalitypredict.herokuapp.com/<br>
 - This is how the web page looks (you can also use the above link to test it out) <br>
 
+![Screenshot 2021-09-03 212549](https://user-images.githubusercontent.com/64833579/132033967-7cee5f9f-a6bc-47d2-98b3-e2b1e82c5be3.jpg)
+
+
  
 
 
