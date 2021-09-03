@@ -4,11 +4,11 @@ This model predicts the quality of red wine and I created this model in my 1 mon
 The Model is deployed at https://redwinequalitypredict.herokuapp.com/
 
 The model takes the following inputs:
->Citric Acid
->Fixed Acidity
->Total Sulphur Dioxide
->Volatile Acidity
->Sulphates
->Density
+>Citric Acid <br>
+>Fixed Acidity <br>
+>Total Sulphur Dioxide <br>
+>Volatile Acidity <br>
+>Sulphates <br>
+>Density <br>
 >Alcohol
 
