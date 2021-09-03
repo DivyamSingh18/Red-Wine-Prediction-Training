@@ -1,4 +1,4 @@
-# Wine-Quality-Predictor
+# Red-Wine-Quality-Prediction-Training
 
 - This model predicts the quality of red wine and I created this model in my 1 month training during 3rd year of B.tech. <br>
 - I have made this model with RandomForestClassfier Algorithm. <br>
