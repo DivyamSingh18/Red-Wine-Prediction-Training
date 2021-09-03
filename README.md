@@ -1,8 +1,12 @@
 # Wine-Quality-Predictor
 
-This model predicts the quality of red wine and I created this model in my 1 month training during 3rd year of B.tech.
-The Model is deployed at https://redwinequalitypredict.herokuapp.com/
-
+- This model predicts the quality of red wine and I created this model in my 1 month training during 3rd year of B.tech. <br>
+- I have made this model with RandomForestClassfier Algorithm. <br>
+- I have also performed feature selection in this model and handled the imbalanced data in data-set.  <br>
+- The Model is deployed at https://redwinequalitypredict.herokuapp.com/ <br>
+<hr>
+The data-set used in this model is 
+<hr>
 The model takes the following inputs:
 >Citric Acid <br>
 >Fixed Acidity <br>
@@ -10,5 +14,7 @@ The model takes the following inputs:
 >Volatile Acidity <br>
 >Sulphates <br>
 >Density <br>
->Alcohol
+>Alcohol <br>
+
+Based on these input values, the model tells whether the wine quality is good or bad.
 
