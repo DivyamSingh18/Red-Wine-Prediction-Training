@@ -1,1 +1,1 @@
-# Red-Wine-Prediction-Training
+# Wine-Quality-Predictor
