@@ -5,7 +5,8 @@
 - I have also performed feature selection in this model and handled the imbalanced data in data-set.  <br>
 - The Model is deployed at https://redwinequalitypredict.herokuapp.com/ <br>
 <hr>
-The data-set used in this model is 
+The Kaggle link for the data-set used in this model is: <br>
+ &nbsp;&nbsp;  https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009?select=winequality-red.csv
 <hr>
 The model takes the following inputs:
 >Citric Acid <br>
