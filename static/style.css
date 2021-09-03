@@ -1,23 +1,27 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #2ecc71;
   }
   * {
     margin: 0;
   }
   .houseContainer {
+    background-color: #2ecc71;
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
       url("../Images/wine-alcohol-drink.jpeg"); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("https://github.com/DivyamSingh18/Red-Wine-Prediction-Training/blob/main/static/wine-alcohol-drink.jpeg?raw=true");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("https://github.com/DivyamSingh18/Red-Wine-Prediction-Training/blob/main/static/wine-alcohol-drink.jpeg?raw=true");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
+    width: 100%  ;
+    position: relative;
   }
   .houseContainer_result {
     position: absolute;
-    top: 50%;
+    top: 500px;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -32,6 +36,7 @@ body {
     border-radius: 10px;
     box-shadow: 0px 2px 5px 0 rgba(249, 249, 249, 0.4);
     padding: 0 20px;
+    margin: 30px;
   }
   .Form h1 {
     font-family: sans-serif;
@@ -110,5 +115,27 @@ body {
   .formInput input:focus {
     width: 280px;
     border-color: #2ecc71;
+  }
+  
+
+  @media screen and (max-width:541px) {
+    body{
+      display: grid;
+      grid-template-columns: 1fr ;
+      margin: auto;
+    }
+    .houseContainer {
+      display: grid;
+      height: 100%;
+      width: 100%  ;
+     
+    }
+    .houseContainer_result {
+      position: absolute;
+      top: 500px;
+      margin: auto;
+      width: 100%;
+      margin-left: -29px;
+    }
   }
   
